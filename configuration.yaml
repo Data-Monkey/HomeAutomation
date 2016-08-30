@@ -12,6 +12,12 @@ homeassistant:
 #  api_password: !secret HA_PASSWORD
 #  server_port: 8123
 
+# -- Enabled --
+# discovery:
+frontend:
+history:
+logbook:
+sun:
 
 ############
 # INCLUDES #
