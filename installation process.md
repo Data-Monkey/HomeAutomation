@@ -17,18 +17,26 @@ user: pi <br>
 password: raspberry
 
 - set zimezone and locale
+
 <code>sudo raspi-config</code>
 
 - update software
+
 <code>sudo apt-get update && sudo apt-get upgrade </code>
 
 - setup wifi
-at the bottom of etc/wpa_supplicant/wpa_supplicant.conf
-add
+
+at the bottom of <code>/etc/wpa_supplicant/wpa_supplicant.conf</code>add
+
 <code>
 network={
     ssid="your-network-ssid-name"
     psk="your-network-password"
 }
 </code>
+
+<h3> install hass </h3>
+following the All in One install
+
+https://home-assistant.io/getting-started/installation-raspberry-pi-all-in-one/
 
