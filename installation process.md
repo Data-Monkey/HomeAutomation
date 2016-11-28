@@ -40,3 +40,33 @@ following the All in One install
 
 https://home-assistant.io/getting-started/installation-raspberry-pi-all-in-one/
 
+<h3>Install Samba</h3>
+
+<code>
+sudo apt-get install samba samba-common-bin
+</code>
+
+<code>
+sudo vi /etc/samba/smb.conf
+</code>
+
+make sure this exists:
+
+<code>
+workgroup = WORKGROUP
+wins support = yes
+</code>
+
+Add
+
+<code>
+[HASS]
+ comment=Hass Config
+ path=/home/pi/share
+ browseable=Yes
+ writeable=Yes
+ only guest=no
+ create mask=0777
+ directory mask=0777
+ public=no
+</code>
