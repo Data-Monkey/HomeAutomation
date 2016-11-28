@@ -13,21 +13,22 @@ using https://sourceforge.net/projects/win32diskimager/?source=typ_redirect
 <h3>SSH</h3>
 find IP in router
 
-user pi 
-password raspberry
+user: pi <br>
+password: raspberry
 
-
-sudo raspi-config
 - set zimezone and locale
+<code>sudo raspi-config</code>
 
+- update software
 <code>sudo apt-get update && sudo apt-get upgrade </code>
 
-
+- setup wifi
 at the bottom of etc/wpa_supplicant/wpa_supplicant.conf
 add
+<code>
 network={
     ssid="your-network-ssid-name"
     psk="your-network-password"
 }
-
+</code>
 
