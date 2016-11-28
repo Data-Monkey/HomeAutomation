@@ -28,12 +28,12 @@ password: raspberry
 
 at the bottom of <code>/etc/wpa_supplicant/wpa_supplicant.conf</code>add
 
-<code>
+```
 network={
     ssid="your-network-ssid-name"
     psk="your-network-password"
 }
-</code>
+```
 
 <h3> install hass </h3>
 following the All in One install
@@ -42,24 +42,24 @@ https://home-assistant.io/getting-started/installation-raspberry-pi-all-in-one/
 
 <h3>Install Samba</h3>
 
-<code>
+``` linux
 sudo apt-get install samba samba-common-bin
-</code>
+```
 
-<code>
+``` linux
 sudo vi /etc/samba/smb.conf
-</code>
+```
 
 make sure this exists:
 
-<code>
+``` linux
 workgroup = WORKGROUP
 wins support = yes
-</code>
+```
 
 Add
 
-<code>
+```
 [HASS]
  comment=Hass Config
  path=/home/pi/share
@@ -69,4 +69,4 @@ Add
  create mask=0777
  directory mask=0777
  public=no
-</code>
+```
