@@ -20,7 +20,7 @@ password raspberry
 sudo raspi-config
 - set zimezone and locale
 
-sudo apt-get update && sudo apt-get upgrade
+<code>sudo apt-get update && sudo apt-get upgrade </code>
 
 
 at the bottom of etc/wpa_supplicant/wpa_supplicant.conf
