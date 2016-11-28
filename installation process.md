@@ -62,11 +62,16 @@ Add
 ```
 [HASS]
  comment=Hass Config
- path=/home/pi/share
+ path=/home/hass/.homeassistant
  browseable=Yes
  writeable=Yes
  only guest=no
  create mask=0777
  directory mask=0777
  public=no
+```
+Add Samba User:
+
+```
+sudo smbpasswd -a hass
 ```
