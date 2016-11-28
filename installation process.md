@@ -9,8 +9,25 @@ I downloaded the lite version
 using https://sourceforge.net/projects/win32diskimager/?source=typ_redirect
 
 
-<h3>Configuration</h3>
-follow this to set up wifi:
-http://blog.self.li/post/63281257339/raspberry-pi-part-1-basic-setup-without-cables
+
+<h3>SSH</h3>
+find IP in router
+
+user pi 
+password raspberry
+
+
+sudo raspi-config
+- set zimezone and locale
+
+sudo apt-get update && sudo apt-get upgrade
+
+
+at the bottom of etc/wpa_supplicant/wpa_supplicant.conf
+add
+network={
+    ssid="your-network-ssid-name"
+    psk="your-network-password"
+}
 
 
