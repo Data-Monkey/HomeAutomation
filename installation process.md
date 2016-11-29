@@ -75,3 +75,13 @@ Add Samba User:
 ```
 sudo smbpasswd -a hass
 ```
+
+
+
+<h3> install subversion</h3>
+this is required to copy specific folders from github
+
+```
+sudo apt-get install subversion
+mkdir -p /home/pi/repos
+```
