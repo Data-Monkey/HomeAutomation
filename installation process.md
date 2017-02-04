@@ -85,3 +85,7 @@ this is required to copy specific folders from github
 sudo apt-get install subversion
 mkdir -p /home/pi/repos
 ```
+use subversion:
+```
+svn export https://github.com/iandday/home-assistant/trunk/homeassistant/components/remote
+```
