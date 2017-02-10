@@ -90,7 +90,7 @@ use subversion:
 svn export https://github.com/iandday/home-assistant/trunk/homeassistant/components/remote
 ```
 
-Upgrade HASS (instlled prior Dec 2016)
+<h3> Upgrade HASS (instlled prior Dec 2016) </h3> 
 ````
 sudo apt-get update
 sudo apt-get upgrade -y
@@ -104,7 +104,7 @@ sudo reboot
 ````
 
 
-Xiaomi Component in Custome Components
+<h3> Xiaomi Component in Custome Components</h3> 
 ````
 cd ~/repos/xiaomi
 sudo svn export --force https://github.com/lazcad/homeassistant/trunk/components
@@ -115,4 +115,3 @@ sudo chown hass:hass -R /home/hass/.homeassistant/custom_components/
 
 ````
 
- sudo svn export https://github.com/lazcad/homeassistant
