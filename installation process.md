@@ -102,3 +102,17 @@ exit
 
 sudo reboot
 ````
+
+
+Xiaomi Component in Custome Components
+````
+cd ~/repos/xiaomi
+sudo svn export --force https://github.com/lazcad/homeassistant/trunk/components
+cd ~/repos/xiaomi/components
+
+sudo cp -R * /home/hass/.homeassistant/custom_components/
+sudo chown hass:hass -R /home/hass/.homeassistant/custom_components/
+
+````
+
+ sudo svn export https://github.com/lazcad/homeassistant
