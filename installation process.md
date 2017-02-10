@@ -89,3 +89,16 @@ use subversion:
 ```
 svn export https://github.com/iandday/home-assistant/trunk/homeassistant/components/remote
 ```
+
+Upgrade HASS (instlled prior Dec 2016)
+````
+sudo apt-get update
+sudo apt-get upgrade -y
+
+sudo su -s /bin/bash hass
+source /srv/hass/hass_venv/bin/activate
+pip3 install --upgrade homeassistant
+exit
+
+sudo reboot
+````
