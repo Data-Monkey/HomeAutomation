@@ -114,4 +114,7 @@ sudo cp -R * /home/hass/.homeassistant/custom_components/
 sudo chown hass:hass -R /home/hass/.homeassistant/custom_components/
 
 ````
-
+<h3> Install git</h3>
+````
+sudo apt-get install git
+````
