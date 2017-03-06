@@ -118,3 +118,16 @@ sudo chown hass:hass -R /home/hass/.homeassistant/custom_components/
 ````
 sudo apt-get install git
 ````
+
+
+<h3>Check Config</h3>
+````
+sudo su -s /bin/bash hass
+source /srv/hass/hass_venv/bin/activate
+hass --script check_config
+````
+<h3>Restart HASS</h3>
+````
+sudo systemctl restart home-assistant.service
+````
+defined as hass_restart in .profile
