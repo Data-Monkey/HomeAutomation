@@ -107,6 +107,7 @@ sudo reboot
 
 
 <h3> Xiaomi Component in Custome Components</h3> 
+
 ```
 cd ~/repos/xiaomi
 sudo svn export --force https://github.com/lazcad/homeassistant/trunk/components
