@@ -86,11 +86,13 @@ sudo apt-get install subversion
 mkdir -p /home/pi/repos
 ```
 use subversion:
+
 ```
 svn export https://github.com/iandday/home-assistant/trunk/homeassistant/components/remote
 ```
 
 <h3> Upgrade HASS (instlled prior Dec 2016) </h3> 
+
 ```
 sudo apt-get update
 sudo apt-get upgrade -y
