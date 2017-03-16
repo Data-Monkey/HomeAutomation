@@ -91,7 +91,7 @@ svn export https://github.com/iandday/home-assistant/trunk/homeassistant/compone
 ```
 
 <h3> Upgrade HASS (instlled prior Dec 2016) </h3> 
-````
+```
 sudo apt-get update
 sudo apt-get upgrade -y
 
@@ -101,11 +101,11 @@ pip3 install --upgrade homeassistant
 exit
 
 sudo reboot
-````
+```
 
 
 <h3> Xiaomi Component in Custome Components</h3> 
-````
+```
 cd ~/repos/xiaomi
 sudo svn export --force https://github.com/lazcad/homeassistant/trunk/components
 cd ~/repos/xiaomi/components
@@ -113,21 +113,21 @@ cd ~/repos/xiaomi/components
 sudo cp -R * /home/hass/.homeassistant/custom_components/
 sudo chown hass:hass -R /home/hass/.homeassistant/custom_components/
 
-````
+```
 <h3> Install git</h3>
-````
+```
 sudo apt-get install git
-````
+```
 
 
 <h3>Check Config</h3>
-````
+```
 sudo su -s /bin/bash hass
 source /srv/hass/hass_venv/bin/activate
 hass --script check_config
-````
+```
 <h3>Restart HASS</h3>
-````
+```
 sudo systemctl restart home-assistant.service
-````
+```
 defined as hass_restart in .profile
