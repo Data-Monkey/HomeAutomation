@@ -83,7 +83,7 @@ class XiaomiGenericSwitch(XiaomiDevice, SwitchDevice):
         if self.xiaomi_hub.write_to_hub(self._sid, **{self._data_key: 'off'}):
             self._state = False
             self._in_use = False
-	    self._load_power = 0
+            self._load_power = 0
             self.schedule_update_ha_state()
 
     def parse_data(self, data):
@@ -91,7 +91,7 @@ class XiaomiGenericSwitch(XiaomiDevice, SwitchDevice):
         
         if IN_USE in data:
           if int(data[IN_USE]) == 1:
-	       self._in_use = True
+                self._in_use = True
           else:
                self._in_use = False
             
