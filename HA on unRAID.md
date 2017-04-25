@@ -35,3 +35,11 @@ wget https://raw.githubusercontent.com/Danielhiversen/homeassistant/master/compo
 wget https://raw.githubusercontent.com/Danielhiversen/homeassistant/master/components/switch/xiaomi.py -O /mnt/cache/appdata/home-assistant/custom_components/switch/xiaomi.py
 
 ````
+
+
+<h2>Update GitHub</h2>
+
+install git from nerd pack (unRAID plugin)
+
+followed istrauctions from cookbook here : https://home-assistant.io/docs/ecosystem/backup/backup_github/
+
