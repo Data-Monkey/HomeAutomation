@@ -36,6 +36,13 @@ wget https://raw.githubusercontent.com/Danielhiversen/homeassistant/master/compo
 
 ````
 
+and the plug update from here:
+
+````
+wget https://raw.githubusercontent.com/bastshoes/homeassistant/master/components/switch/xiaomi.py -O /mnt/cache/appdata/home-assistant/custom_components/switch/xiaomi.py
+
+````
+
 
 <h2>Update GitHub</h2>
 
