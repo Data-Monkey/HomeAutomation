@@ -43,6 +43,13 @@ wget https://raw.githubusercontent.com/bastshoes/homeassistant/master/components
 
 ````
 
+<h3>Install Person Custom Component</h3>
+https://github.com/CoalaJoe/person_component
+
+````
+wget https://raw.githubusercontent.com/CoalaJoe/person_component/master/person.py -O /mnt/cache/appdata/home-assistant/custom_components/person.py
+````
+
 
 <h2>Update GitHub</h2>
 
