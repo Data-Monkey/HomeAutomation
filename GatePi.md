@@ -8,6 +8,8 @@ Installing pi-hole for DNS/DHCP and AD blocking
 Follow the easy steps at www.pi-hole.net
 Community/Forum at https://discourse.pi-hole.net
 
+The local admin website is on pi.hole/admin
+
 Disabled the DHCP in the router and using the pi-hole as DHCP and DNS server.
 
 
