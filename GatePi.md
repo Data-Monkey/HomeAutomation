@@ -14,3 +14,9 @@ Disabled the DHCP in the router and using the pi-hole as DHCP and DNS server.
 Forwarding stats to influx db
 https://discourse.pi-hole.net/t/api-forwarders-stops-working-after-a-few-minutes/3278/25
 
+Installing jq
+https://stedolan.github.io/jq/
+
+````
+ sudo apt-get install jq
+````
