@@ -22,3 +22,11 @@ https://stedolan.github.io/jq/
 ````
  sudo apt-get install jq
 ````
+
+to keep the stats on a daily basis (not rolling window)
+create: /etc/pihole/pihole-FTL.conf
+
+````
+TIMEFRAME=yesterday
+````
+
