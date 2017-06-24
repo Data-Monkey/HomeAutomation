@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 # Script to forward stats to influx db for graphing in grafana.
 
 # add script to cron tab every minute
