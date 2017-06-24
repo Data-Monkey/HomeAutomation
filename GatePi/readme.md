@@ -30,3 +30,12 @@ create: /etc/pihole/pihole-FTL.conf
 TIMEFRAME=yesterday
 ````
 
+get the script to the GATE-PI
+
+````
+wget https://raw.githubusercontent.com/Data-Monkey/HomeAutomation/master/GatePi/forward_stats.sh -O /home/pi/pistats/forward-stats.sh
+chmod a+x /home/pi/pistats/forward_stats.sh
+````
+
+don't forget to add it to the crontab
+
