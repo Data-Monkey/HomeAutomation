@@ -49,8 +49,12 @@ diffBlocked=$((currentBlocked-lastBlocked))
 diffQueries=$((currentQueries-lastQueries))
 
 # avoid negative (due to the rolling windows or the cutover at midnight
-if [ ${diffBlocked} -le 0 ] ; then diffBlocked=0 fi
-if [ ${diffQueries} -le 0 ] ; then diffQueries=0 fi
+if [ ${diffBlocked} -le 0 ] ; then 
+  diffBlocked=0 
+fi
+if [ ${diffQueries} -le 0 ] ; then 
+  diffQueries=0 
+fi
 
 # send to influx
 curl -is -XPOST "$DBURL/write?db=$DBNAME&u=$USER&p=$PASSWORD" --data-binary "DNSStats,Device=${DEVICE} BlockedQueries=${diffBlocked},TotalQueryReceived=${diffQueries},PercentBlocked=${currentPercent} ${CURDATE}000000000" >/dev/null 2>&1
