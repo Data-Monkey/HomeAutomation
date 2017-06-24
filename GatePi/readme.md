@@ -1,6 +1,6 @@
 <h1> GatePi </h1>
 
-Raspberry Pi to be that gate keeper!
+Raspberry Pi to be the gate keeper of my network!
 
 <h2>Pi-Hole</h2>
 Installing pi-hole for DNS/DHCP and AD blocking
