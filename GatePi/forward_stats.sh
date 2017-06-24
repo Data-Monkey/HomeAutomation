@@ -10,7 +10,7 @@
 # Set Vars
 # Influx User/PW need to be defined as environment variables (to keep them out of github)
 #
-DBURL=http://tower:8086
+DBURL=http://192.168.2.130:8086
 DBNAME=statistics
 DEVICE="GATE-PI"
 CURDATE=`date +%s`
