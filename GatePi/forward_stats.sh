@@ -1,4 +1,4 @@
-#! /bin.bash
+#! /bin/bash
 # Script to forward stats to influx db for graphing in grafana.
 
 # add script to cron tab every minute
@@ -61,8 +61,4 @@ echo "data "$currentBlocked $currentQueries $currentPercent > $PrevStats
 # remove temp files
 rm $RawFile
 
-
-
-  
-  
-  
+exit 0
