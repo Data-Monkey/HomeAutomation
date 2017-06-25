@@ -49,7 +49,13 @@ http://www.pivpn.io/#install
  curl -L https://install.pivpn.io | bash
 ````
 
+followed by 
 
+````
+pivpn add
+````
+
+then copy the new file from /home/pi/ovpns via TOWER and email to the phones.
 
 <h2>NETDATA</h2>
 Get usage stats. Statistics done right
