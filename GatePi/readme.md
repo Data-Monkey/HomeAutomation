@@ -39,3 +39,24 @@ chmod a+x /home/pi/pistats/forward_stats.sh
 
 don't forget to add it to the crontab
 
+
+<h2>PiVPN</h2>
+
+OpenVPN on the RPi
+http://www.pivpn.io/#install
+
+````
+ curl -L https://install.pivpn.io | bash
+````
+
+
+
+<h2>NETDATA</h2>
+Get usage stats. Statistics done right
+https://my-netdata.io
+https://github.com/firehol/netdata/wiki/Installation
+
+````
+bash <(curl -Ss https://my-netdata.io/kickstart.sh) 
+````
+
