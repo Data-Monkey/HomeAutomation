@@ -12,5 +12,6 @@ copy files to HA Config
 
 ````
 cp /data/git-repos/ha-floorplan/ha-floorplan/www/custom_ui/* -r /config/www/custom_ui/
+cp /data/git-repos/ha-floorplan/ha-floorplan/panels/ -r /config/
 ````
 
