@@ -12,8 +12,16 @@ The local admin website is on http://pi.hole/admin
 
 Disabled the DHCP in the router and using the pi-hole as DHCP and DNS server.
 
+<h3>Update Pi-Hole</h3>
 
-Forwarding stats to influx db
+````
+pihole -up
+````
+
+too easy!
+
+
+<h3>Forwarding stats to influx db</h3>
 https://discourse.pi-hole.net/t/api-forwarders-stops-working-after-a-few-minutes/3278/25
 
 Installing jq
