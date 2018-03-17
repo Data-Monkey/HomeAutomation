@@ -51,6 +51,18 @@ wget https://raw.githubusercontent.com/CoalaJoe/person_component/master/person.p
 ````
 
 
+Janet Package:
+
+````
+wget https://raw.githubusercontent.com/Lentron/Janet---Home-Assistant/master/packages/janet_automations.yaml -O /mnt/cache/appdata/home-assistant/includes/packages/janet/janet_automations.yaml
+
+ wget https://raw.githubusercontent.com/Lentron/Janet---Home-Assistant/master/packages/janet.yaml -O /mnt/cache/appdata/home-assistant/includes/packages/janet/janet.yaml
+````
+ 
+add this to configuration.yaml
+ 
+
+
 <h2>Update GitHub</h2>
 
 install git from nerd pack (unRAID plugin)
