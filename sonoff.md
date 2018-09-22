@@ -24,15 +24,19 @@ https://www.youtube.com/watch?v=KMiP9Ku71To
 
 * open termite
 * select port
-* set baud to 115200
-GREEN is GOOD
+* set baud to 115200   > GREEN is GOOD
 
-put a command like this :
-Backlog SSID1 xxxxxx; Password1 yyyyyy;
+* send a command like this to setup wifi : *Backlog SSID1 xxxxxx; Password1 yyyyyy;*
+* the log will show new IP adress
+* configure mqtt via gui
 
-configure mqtt via gui
 
-Sonoff SV
+
+Sonoff BASIC connections
+
+
+Sonoff SV (Save Voltage)
+
 
 
 
