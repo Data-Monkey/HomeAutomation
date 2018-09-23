@@ -30,6 +30,16 @@ https://www.youtube.com/watch?v=KMiP9Ku71To
 * the log will show new IP adress
 * configure mqtt via gui
 
+* set time server, timezone and DST rules in the web command or as Backlog in the terminal
+
+```` 
+
+ntpserver1 192.168.2.130
+timezone 99
+TimeDST 1,1,10,1,2,660   #Southen Hemisphere, First, October,Sunday, 2am ,+11hrs
+TimeSTD 1,1,4,1,2,600    #Southen Hemisphere, First, April,Sunday, 2am ,+10hrs
+
+````
 
 
 Sonoff BASIC connections
