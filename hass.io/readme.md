@@ -1,3 +1,10 @@
+I have tried HASS.IO on a rbi3 but I was not happy with the performance. 
+So I moved back to the docker on tower!
+
+
+
+
+
 <H1>HASS.IO</h1>
 
 some config
